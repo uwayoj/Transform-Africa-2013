@@ -22,13 +22,17 @@
 			<!-- Content    -->
 			<div data-role="content">
 				<h3>ABOUT THE SUMMIT</h3>
-					<frameset rows="50%,50%">
-                      <frame src="frame_a.htm">
-                      <frameset cols="25%,75%">
-                        <frame src="frame_b.htm">
-                        <frame src="frame_c.htm">
-                      </frameset>
-                    </frameset>			
+					<frameset rows="100,*" frameborder="0" border="0" framespacing="0">
+                      <frame name="topNav" src="top_nav.html">
+                    <frameset cols="200,*" frameborder="0" border="0" framespacing="0">
+	                    <frame name="menu" src="menu_1.html" marginheight="0" marginwidth="0" scrolling="auto" noresize>
+	                    <frame name="content" src="content.html" marginheight="0" marginwidth="0" scrolling="auto" noresize>
+
+                    <noframes>
+                     <p>This section (everything between the 'noframes' tags) will only be displayed if the users' browser doesn't support frames. You can provide a link to a non-frames version of the website here. Feel free to use HTML tags within this section.</p>
+                   </noframes>
+                   </frameset>
+                   </frameset>		
 			</div>
 			<!-- /content -->
 			<!-- footer -->
