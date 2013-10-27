@@ -1,4 +1,6 @@
-Transform-Africa-2013
-=====================
+PhoneGap-Start
+---
 
-Transform Africa 2013 shall be co-hosted by H.E. President Paul Kagame and Dr. Hamadoun I. Toure, Secretary General of the International Telecommunications Union (ITU) at the Kigali Serena Hotel on 28th- 31st October 2013.
+A starting point for PhoneGap apps.
+
+To get started: fork this repo, modify the config.xml to match your details, and get building!
